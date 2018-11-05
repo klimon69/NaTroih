@@ -1,0 +1,146 @@
+body
+{
+	background: url(bd.jpg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+#center
+{
+
+    background: url(2.png) no-repeat;
+    margin-left: 90%;
+    width: 100%;
+    height: 800px;
+}
+
+.alex
+{
+	padding-top: 160px;
+	margin-top:150px;
+	margin-left: 270px;
+	
+
+}
+
+#inputAlex
+{
+    outline: none;
+	border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+}
+
+.alex label
+{
+	font-size: 25px;
+	font-family: Monotype Corsiva;
+	color: #071142;
+}
+
+.andrew
+{
+	
+	margin-top:30px;
+	margin-left: 230px;
+}
+
+#inputAndrew
+{
+    outline: none;
+	border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 20px;
+   
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+
+}
+
+.andrew label
+{
+	font-size: 25px;
+	font-family: Monotype Corsiva;
+	color: #071142;
+}
+
+.kosten
+{
+	margin-top:30px;
+	margin-left: 190px;
+}
+
+#inputKosten
+{
+    outline: none;
+	border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+}
+
+.kosten label
+{
+	font-size: 25px;
+	font-family: Monotype Corsiva;
+	color: #071142;
+}
+
+#btns
+{
+    width: 700px;
+}
+
+#calculate
+{
+	margin-top:40px;
+	margin-left: 225px;
+	height: 30px;
+	width: 200px;
+	outline: none;
+	border: none;
+    background-color: #4CAF50;
+	color: white;
+    transition-duration: 0.4s;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+}
+
+
+#calculate:hover 
+{
+    background-color: white; 
+    color: black; 
+}
+
+#reload
+{
+   width: 150px;
+   height: 60px;	
+   margin-left: 38px;
+}
+
+#res
+{
+    position: relative;
+	padding-left: 150px;
+	padding-top: 50px;
+	max-width: 300px;
+	font-size: 30px;
+	z-index: 200;
+	font-family: Monotype Corsiva;
+	text-align: center;
+}

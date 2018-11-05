@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link href="styles.css" rel="stylesheet">
+<script src="script.js"></script>
+<title>НА ТРОИХ</title>
+</head>
+<body>
+<div id="center">
+   <div class="alex">
+          <label for="uname">Саня</label>
+          <input type="text" id="inputAlex" autocomplete="off"  />
+   </div>
+   
+   <div class="andrew">
+          <label for="uname">Андрэ</label>
+          <input type="text" id="inputAndrew"   />
+   </div>
+   
+   <div class="kosten">
+          <label for="uname">Костен</label>
+          <input type="text" id="inputKosten"  />
+   </div>
+
+   <div id="btns">
+   <input type="button" id="calculate" onclick="calc()" value = "РАССЧИТАТЬ" ">
+   <!--<input type="button" id="reload" onclick="reload()" value = "Перезагрузить" ">-->
+
+   </div>
+
+
+   <div id = 'res'>
+     
+     <div id="divzero">
+      Заполните все обязательные поля!
+     </div>
+
+     <div id='divone'>
+     
+     Саня должен перевести Андрэ - <span id = "s-to-a"></span> р.
+     Костен должен перевести Андрэ - <span id = "k-to-a"></span> р.
+     
+     </div>
+     
+      <div id = "divtwo">
+     Андрэ должен перевести Сане - <span id = "a-to-s"></span> р.
+     Костен должен перевести Сане - <span id = "k-to-s"></span> р.
+      </div>
+      
+      <div id = "divthree">
+     Андрэ должен перевести Костену - <span id = "a-to-k"></span> р.
+     Саня должен перевести Костену - <span id = "s-to-k"></span> р.
+     
+     </div>
+     
+
+     
+     <div id='divfour'>
+     
+     Саня должен перевести Андрэ - <span id = "s-to-a2"></span> р.
+     
+     
+     </div>
+     
+     <div id='divfive'>
+     
+     Костен должен перевести Андрэ - <span id = "k-to-a2"></span> р.
+     
+     
+     </div>
+     
+     <div id='divsix'>
+     
+     Андрэ должен перевести Сане - <span id = "a-to-s2"></span> р.
+     
+     
+     </div>
+     
+     <div id='divseven'>
+     
+     Костен должен перевести Сане - <span id = "k-to-s2"></span> р.
+     
+     
+     </div>
+     
+     
+     <div id='diveight'>
+     
+     Андрэ должен перевести Костену - <span id = "a-to-k2"></span> р.
+     
+     
+     </div>
+     
+     <div id='divnine'>
+     
+     Саня должен перевести Костену - <span id = "s-to-k2"></span> р.
+     
+     
+     </div>
+   
+  </div>
+ </div>  
+ </body>
+ </html>

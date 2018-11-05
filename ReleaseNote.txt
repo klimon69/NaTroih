@@ -1,0 +1,27 @@
+==================================
+RELEASE NOTE APPLICATION "NA TROIH"
+==================================
+Release Date: 2018-11-02
+Release: 1.00
+Problems: Development
+Solution: Added JS logic
+----------------------------
+Release Date: 2018-11-04
+Release: 1.02
+Problems: Development(continue)
+Solution: Added CSS
+Added JS logic
+----------------------------
+Release Date: 2018-11-04
+Release: 1.03
+Problems:
+Error when input 3 same numbers
+Error when inrut to similiar numbers and third - 1.
+Solution: Changin logic in Count dunction.
+----------------------------
+Release Date: 2018-11-04
+Release: 1.04
+Problems:
+when all fields empty must apear alert thqt fields are embty, but 
+"никто никому не должен" appeared
+Solution: Added if case
